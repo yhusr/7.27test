@@ -3,3 +3,8 @@
 # @Author  :toy_yh
 # @File    :run.py.py
 # @Software:PyCharm
+import pytest
+
+
+if __name__ == '__main__':
+    pytest.main(["--reruns", "2", "--reruns-delay", "5", "--junitxml=reports/allure.xml"])

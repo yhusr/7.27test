@@ -1,0 +1,3 @@
+2020-07-27 15:30:18,498 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [2, '密码格式为8到16位'] == [2, '无效的手机格式']
+  At index 1 diff: '密码格式为8到16位' != '无效的手机格式'
+  Use -v to get the full diff

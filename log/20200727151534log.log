@@ -1,0 +1,24 @@
+2020-07-27 15:15:35,880 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [0, 'OK']
+  At index 0 diff: 1006 != 0
+  Use -v to get the full diff
+2020-07-27 15:15:36,638 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [1, '密码为空']
+  At index 0 diff: 1006 != 1
+  Use -v to get the full diff
+2020-07-27 15:15:37,374 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [2, '密码格式为8到16位']
+  At index 0 diff: 1006 != 2
+  Use -v to get the full diff
+2020-07-27 15:15:38,187 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [2, '密码格式为8到16位']
+  At index 0 diff: 1006 != 2
+  Use -v to get the full diff
+2020-07-27 15:15:38,906 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [1, '手机号为空']
+  At index 0 diff: 1006 != 1
+  Use -v to get the full diff
+2020-07-27 15:15:39,706 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [1, '手机号为空']
+  At index 0 diff: 1006 != 1
+  Use -v to get the full diff
+2020-07-27 15:15:40,521 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [2, '无效的手机格式']
+  At index 0 diff: 1006 != 2
+  Use -v to get the full diff
+2020-07-27 15:15:41,296 - interface_test - [test_register_case.py-->line:40] - ERROR: assert [1006, '请求头X-...edia-Type不存在'] == [2, '无效的手机格式']
+  At index 0 diff: 1006 != 2
+  Use -v to get the full diff

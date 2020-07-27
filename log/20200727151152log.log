@@ -1,0 +1,8 @@
+2020-07-27 15:11:53,707 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:54,544 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:55,330 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:56,097 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:56,822 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:57,598 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:58,331 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
+2020-07-27 15:11:59,093 - interface_test - [test_register_case.py-->line:40] - ERROR: 'TestRegisterCase' object has no attribute 'assertListEqual'
