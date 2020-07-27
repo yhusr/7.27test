@@ -1,0 +1,16 @@
+2020-07-27 14:28:40,909 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (0, 'OK')
+2020-07-27 14:28:40,990 - interface_test - [test_register_case.py-->line:49] - INFO: 正确格式的数据注册成功
+2020-07-27 14:28:41,577 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (1, '密码为空')
+2020-07-27 14:28:41,657 - interface_test - [test_register_case.py-->line:49] - INFO: 密码为空
+2020-07-27 14:28:42,129 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (2, '密码格式为8到16位')
+2020-07-27 14:28:42,211 - interface_test - [test_register_case.py-->line:49] - INFO: 密码少于8位
+2020-07-27 14:28:42,685 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (2, '密码格式为8到16位')
+2020-07-27 14:28:42,769 - interface_test - [test_register_case.py-->line:49] - INFO: 密码大于16位
+2020-07-27 14:28:43,204 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (1, '手机号为空')
+2020-07-27 14:28:43,290 - interface_test - [test_register_case.py-->line:49] - INFO: 手机号为空
+2020-07-27 14:28:43,710 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (1, '手机号为空')
+2020-07-27 14:28:43,796 - interface_test - [test_register_case.py-->line:49] - INFO: 手机号密码均为空
+2020-07-27 14:28:44,243 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (2, '无效的手机格式')
+2020-07-27 14:28:44,329 - interface_test - [test_register_case.py-->line:49] - INFO: 手机号输入为空格
+2020-07-27 14:28:44,793 - interface_test - [test_register_case.py-->line:44] - ERROR: First sequence is not a list: (2, '密码格式为8到16位')
+2020-07-27 14:28:44,883 - interface_test - [test_register_case.py-->line:49] - INFO: 手机号和密码均输入为空格
