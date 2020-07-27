@@ -10,7 +10,7 @@ from scripts.handle_mysql import HandleMysql
 from scripts.handle_conf import hy
 
 
-@pytest.fixture()
+@pytest.fixture(scope='class')
 def set_up():
     hr = HandleRequest()
     hm = HandleMysql()
