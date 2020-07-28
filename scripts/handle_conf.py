@@ -22,8 +22,8 @@ class HandleYaml:
         result = st[section_name][option_name]
         return result
 
-    def write_yaml(self, data):
-        with open(self.filepath, 'a', encoding='utf-8') as f:
+    def write_yaml(self, data, mode='a'):
+        with open(self.filepath, mode=mode, encoding='utf-8') as f:
             yaml.dump(data, stream=f, allow_unicode=True)
 
 

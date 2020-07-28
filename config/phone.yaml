@@ -1,0 +1,15 @@
+admin:
+  mobilephone: '13459236178'
+  pwd: '123456678'
+  reg_name: admin
+  user_id: 2062380
+investor:
+  mobilephone: '13448615230'
+  pwd: '123456678'
+  reg_name: investor
+  user_id: 2062381
+loan:
+  mobilephone: '13483975026'
+  pwd: '123456678'
+  reg_name: loan
+  user_id: 2062382

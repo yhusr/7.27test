@@ -30,3 +30,4 @@ excel_path = os.path.join(data_path, 'excelcases.xlsx')
 str_time = time.strftime('%Y%m%d%H%M%S', time.localtime(time.time()))
 log_path = os.path.join(root_path, 'log')
 work_log_path = os.path.join(log_path, str_time + 'log.log')
+
