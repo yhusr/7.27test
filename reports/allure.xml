@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="GOS-01808290836" name="pytest" skipped="0" tests="8" time="17.100" timestamp="2020-07-27T16:11:52.073807"><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj0]" time="0.998"><system-err>2020-07-27 16:11:53,768 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 正确格式的数据注册成功
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj1]" time="0.548"><system-err>2020-07-27 16:11:54,318 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 密码为空
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj2]" time="0.463"><system-err>2020-07-27 16:11:54,781 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 密码少于8位
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj3]" time="0.469"><system-err>2020-07-27 16:11:55,251 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 密码大于16位
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj4]" time="0.517"><system-err>2020-07-27 16:11:55,769 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 手机号为空
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj5]" time="0.522"><system-err>2020-07-27 16:11:56,292 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 手机号密码均为空
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj6]" time="0.534"><system-err>2020-07-27 16:11:56,827 - interface_test - [test_register_case.py--&gt;line:45] - INFO: 手机号输入为空格
-</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="22" name="test_register[obj7]" time="2.217"><failure message="AssertionError: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite errors="0" failures="1" hostname="GOS-01808290836" name="pytest" skipped="0" tests="8" time="16.939" timestamp="2020-07-29T11:13:38.746009"><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj0]" time="1.109"><system-err>2020-07-29 11:13:40,543 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 正确格式的数据注册成功
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj1]" time="0.493"><system-err>2020-07-29 11:13:41,038 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 密码为空
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj2]" time="0.529"><system-err>2020-07-29 11:13:41,569 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 密码少于8位
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj3]" time="0.457"><system-err>2020-07-29 11:13:42,027 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 密码大于16位
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj4]" time="0.510"><system-err>2020-07-29 11:13:42,538 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 手机号为空
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj5]" time="0.468"><system-err>2020-07-29 11:13:43,007 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 手机号密码均为空
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj6]" time="0.521"><system-err>2020-07-29 11:13:43,528 - interface_test - [test_register_case.py--&gt;line:43] - INFO: 手机号输入为空格
+</system-err></testcase><testcase classname="cases.test_register_case.TestRegisterCase" file="cases\test_register_case.py" line="20" name="test_register[obj7]" time="2.092"><failure message="AssertionError: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
   At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
-  Use -v to get the full diff">self = &lt;test_register_case.TestRegisterCase object at 0x0000000004AF2240&gt;
-set_up = (&lt;scripts.handle_request.HandleRequest object at 0x0000000004AF2B70&gt;, &lt;scripts.handle_mysql.HandleMysql object at 0x0000000004AE35F8&gt;)
-obj = &lt;scripts.handle_excel.ObjExcel object at 0x0000000004936908&gt;
+  Use -v to get the full diff">self = &lt;test_register_case.TestRegisterCase object at 0x0000000004EA15F8&gt;
+set_up = (&lt;scripts.handle_request.HandleRequest object at 0x0000000004970F60&gt;, &lt;scripts.handle_mysql.HandleMysql object at 0x0000000004F6FE80&gt;, &lt;scripts.handle_conf.HandleYaml object at 0x000000000423E5F8&gt;, &lt;Logger interface_test (DEBUG)&gt;)
+obj = &lt;scripts.handle_excel.ObjExcel object at 0x00000000049487F0&gt;
 
     @pytest.mark.parametrize(&apos;obj&apos;, obj_li)
     def test_register(self, set_up, obj):
         title = obj.title
-        base_url = hy.read_yaml(&apos;api&apos;, &apos;load&apos;)
+        base_url = set_up[2].read_yaml(&apos;api&apos;, &apos;load&apos;)
         test_url = obj.url
         all_url = &apos;&apos;.join((base_url, test_url))
         right_data = HandleRe.my_re(datas=obj.data)
@@ -23,25 +23,25 @@ obj = &lt;scripts.handle_excel.ObjExcel object at 0x0000000004936908&gt;
             assert [result.json()[&apos;code&apos;], result.json()[&apos;msg&apos;]] == [obj.expected, obj.msg]
             if obj.caseId == 1:
                 my_data = eval(right_data)
-                bl = set_up[1].mysql_exist(sql=hy.read_yaml(&apos;mysql&apos;, &apos;phone_sql&apos;), args=my_data[&apos;mobile_phone&apos;])
+                bl = set_up[1].mysql_exist(sql=set_up[2].read_yaml(&apos;mysql&apos;, &apos;phone_sql&apos;), args=my_data[&apos;mobile_phone&apos;])
                 assert bl
         except Exception as e:
             self.he.write_excel(row_num=int(obj.caseId)+1, col_num=7, value=&apos;fail&apos;)
             self.he.write_excel(row_num=int(obj.caseId)+1, col_num=8, value=result.text)
-            hl.error(e)
+            set_up[3].error(e)
 &gt;           raise e
 
-cases\test_register_case.py:41: 
+cases\test_register_case.py:39: 
 _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
 
-self = &lt;test_register_case.TestRegisterCase object at 0x0000000004AF2240&gt;
-set_up = (&lt;scripts.handle_request.HandleRequest object at 0x0000000004AF2B70&gt;, &lt;scripts.handle_mysql.HandleMysql object at 0x0000000004AE35F8&gt;)
-obj = &lt;scripts.handle_excel.ObjExcel object at 0x0000000004936908&gt;
+self = &lt;test_register_case.TestRegisterCase object at 0x0000000004EA15F8&gt;
+set_up = (&lt;scripts.handle_request.HandleRequest object at 0x0000000004970F60&gt;, &lt;scripts.handle_mysql.HandleMysql object at 0x0000000004F6FE80&gt;, &lt;scripts.handle_conf.HandleYaml object at 0x000000000423E5F8&gt;, &lt;Logger interface_test (DEBUG)&gt;)
+obj = &lt;scripts.handle_excel.ObjExcel object at 0x00000000049487F0&gt;
 
     @pytest.mark.parametrize(&apos;obj&apos;, obj_li)
     def test_register(self, set_up, obj):
         title = obj.title
-        base_url = hy.read_yaml(&apos;api&apos;, &apos;load&apos;)
+        base_url = set_up[2].read_yaml(&apos;api&apos;, &apos;load&apos;)
         test_url = obj.url
         all_url = &apos;&apos;.join((base_url, test_url))
         right_data = HandleRe.my_re(datas=obj.data)
@@ -52,13 +52,13 @@ E           AssertionError: assert [2, &apos;密码格式为8到16位&apos;] == 
 E             At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
 E             Use -v to get the full diff
 
-cases\test_register_case.py:32: AssertionError</failure><system-err>2020-07-27 16:11:57,351 - interface_test - [test_register_case.py--&gt;line:40] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
-  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
-  Use -v to get the full diff
-2020-07-27 16:12:03,266 - interface_test - [test_register_case.py--&gt;line:40] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
-  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
-  Use -v to get the full diff
-2020-07-27 16:12:09,161 - interface_test - [test_register_case.py--&gt;line:40] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
-  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
-  Use -v to get the full diff
+cases\test_register_case.py:30: AssertionError</failure><system-err>2020-07-29 11:13:44,054 - interface_test - [test_register_case.py--&gt;line:38] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
+  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
+  Use -v to get the full diff
+2020-07-29 11:13:49,837 - interface_test - [test_register_case.py--&gt;line:38] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
+  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
+  Use -v to get the full diff
+2020-07-29 11:13:55,671 - interface_test - [test_register_case.py--&gt;line:38] - ERROR: assert [2, &apos;密码格式为8到16位&apos;] == [2, &apos;无效的手机格式&apos;]
+  At index 1 diff: &apos;密码格式为8到16位&apos; != &apos;无效的手机格式&apos;
+  Use -v to get the full diff
 </system-err></testcase></testsuite></testsuites>

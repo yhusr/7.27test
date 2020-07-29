@@ -1,0 +1,16 @@
+2020-07-29 11:13:40,543 - interface_test - [test_register_case.py-->line:43] - INFO: 正确格式的数据注册成功
+2020-07-29 11:13:41,038 - interface_test - [test_register_case.py-->line:43] - INFO: 密码为空
+2020-07-29 11:13:41,569 - interface_test - [test_register_case.py-->line:43] - INFO: 密码少于8位
+2020-07-29 11:13:42,027 - interface_test - [test_register_case.py-->line:43] - INFO: 密码大于16位
+2020-07-29 11:13:42,538 - interface_test - [test_register_case.py-->line:43] - INFO: 手机号为空
+2020-07-29 11:13:43,007 - interface_test - [test_register_case.py-->line:43] - INFO: 手机号密码均为空
+2020-07-29 11:13:43,528 - interface_test - [test_register_case.py-->line:43] - INFO: 手机号输入为空格
+2020-07-29 11:13:44,054 - interface_test - [test_register_case.py-->line:38] - ERROR: assert [2, '密码格式为8到16位'] == [2, '无效的手机格式']
+  At index 1 diff: '密码格式为8到16位' != '无效的手机格式'
+  Use -v to get the full diff
+2020-07-29 11:13:49,837 - interface_test - [test_register_case.py-->line:38] - ERROR: assert [2, '密码格式为8到16位'] == [2, '无效的手机格式']
+  At index 1 diff: '密码格式为8到16位' != '无效的手机格式'
+  Use -v to get the full diff
+2020-07-29 11:13:55,671 - interface_test - [test_register_case.py-->line:38] - ERROR: assert [2, '密码格式为8到16位'] == [2, '无效的手机格式']
+  At index 1 diff: '密码格式为8到16位' != '无效的手机格式'
+  Use -v to get the full diff

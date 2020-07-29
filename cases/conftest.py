@@ -8,6 +8,7 @@ import pytest
 from scripts.handle_request import HandleRequest
 from scripts.handle_mysql import HandleMysql
 from scripts.handle_conf import hy
+from scripts.handle_log import hl
 
 
 @pytest.fixture(scope='class')
@@ -15,6 +16,6 @@ def set_up():
     hr = HandleRequest()
     hm = HandleMysql()
     hr.common_head(hy.read_yaml('api', 'header'))
-    yield hr, hm
+    yield hr, hm, hy, hl
     hr.close()
     hm.close()
